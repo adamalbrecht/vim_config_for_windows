@@ -1,6 +1,9 @@
 [submodule "bundle\\nerdtree"]
 	path = bundle\\nerdtree
 	url = https://github.com/scrooloose/nerdtree.git:master
+[submodule "bundle\\nerdcommenter"]
+	path = bundle\\nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git:master
 [submodule "bundle\\snipmate.vim"]
 	path = bundle\\snipmate.vim
 	url = https://github.com/msanders/snipmate.vim.git:master
