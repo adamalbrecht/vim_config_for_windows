@@ -1,0 +1,12 @@
+[submodule "bundle\\nerdtree"]
+	path = bundle\\nerdtree
+	url = https://github.com/scrooloose/nerdtree.git:master
+[submodule "bundle\\snipmate.vim"]
+	path = bundle\\snipmate.vim
+	url = https://github.com/msanders/snipmate.vim.git:master
+[submodule "bundle\\gvimfullscreen_win32"]
+	path = bundle\\gvimfullscreen_win32
+	url = https://github.com/derekmcloughlin/gvimfullscreen_win32.git:master
+[submodule "bundle\\ZoomWin"]
+	path = bundle\\ZoomWin
+	url = https://github.com/vim-scripts/ZoomWin.git:master
