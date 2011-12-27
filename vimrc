@@ -27,6 +27,9 @@ set softtabstop=2
 set expandtab
 set list listchars=tab:\ \ ,trail:·
 
+" Automatically set the directory of the current file
+" as the present working directory
+set autochdir
 
 " Searching
 set hlsearch
@@ -50,9 +53,12 @@ set noequalalways
 let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
 map <Leader>n :NERDTreeToggle<CR>
 
+" Control-/ to toggle comments
+map <Leader>c <plug>NERDCommenterToggle<CR>
+imap <Leader>c <Esc><plug>NERDCommenterToggle<CR>i
+
 " ZoomWin configuration
 map <Leader><Leader> :ZoomWin<CR>
-
 
 " CTags
 " map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
